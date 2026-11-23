@@ -1,0 +1,35 @@
+{
+  "name": "remark-mkdocs-quiz",
+  "version": "1.0.0",
+  "type": "module",
+  "license": "MIT",
+  "exports": {
+  ".": "./remark-mkdocs-quiz.mjs"
+},
+  "scripts": {
+    "test": "vitest run test/unit",
+    "test:integration": "vitest run test/integration"
+  },
+  "files": [
+  "remark-mkdocs-quiz.mjs",
+  "README.md",
+  "LICENSE"
+  ],
+  "devDependencies": {
+    "@astrojs/markdown-remark": "7.3.10",
+    "@astrojs/starlight": "0.43.1",
+    "astro": "7.4.13",
+    "playwright-core": "1.65.1",
+    "rehype-stringify": "10.0.1",
+    "remark-gfm": "4.0.1",
+    "remark-mkdocs-material-admonitions": "1.0.1",
+    "remark-parse": "11.0.0",
+    "remark-rehype": "11.1.2",
+    "starlight-quiz": "1.0.3",
+    "unified": "11.0.5",
+    "vitest": "4.1.12"
+  },
+  "engines": {
+    "node": ">=22.23.4"
+  }
+}

@@ -1,0 +1,10 @@
+---
+import DefaultHead from '@astrojs/starlight/components/Head.astro';
+---
+
+<DefaultHead><slot /></DefaultHead>
+
+<script>
+  import { defineQuizElement } from '@quiz-client';
+  defineQuizElement();
+</script>
