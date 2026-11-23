@@ -1,19 +1,19 @@
 {
   "name": "remark-mkdocs-quiz",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "license": "MIT",
   "exports": {
-  ".": "./remark-mkdocs-quiz.mjs"
-},
+    ".": "./remark-mkdocs-quiz.mjs"
+  },
   "scripts": {
     "test": "vitest run test/unit",
     "test:integration": "vitest run test/integration"
   },
   "files": [
-  "remark-mkdocs-quiz.mjs",
-  "README.md",
-  "LICENSE"
+    "remark-mkdocs-quiz.mjs",
+    "README.md",
+    "LICENSE"
   ],
   "devDependencies": {
     "@astrojs/markdown-remark": "7.3.10",
